@@ -540,6 +540,7 @@ add_library(${TARGET}
     ${GGML_SOURCES_OPENCL}
     ${GGML_SOURCES_SYCL}
     ${GGML_HEADERS_SYCL}
+    unicode.h
     whisper.h
     whisper.cpp
     )
